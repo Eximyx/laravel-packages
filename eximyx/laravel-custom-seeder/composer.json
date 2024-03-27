@@ -1,0 +1,24 @@
+{
+    "name": "eximyx/laravel-custom-seeder",
+    "description": "This package will implements creating seeders like migrations in laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eximyx\\LaravelCustomSeeder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eximyx",
+            "email": "103458265+Eximyx@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eximyx\\LaravelCustomSeeder\\Providers\\CustomSeederServiceProvider"
+            ]
+        }
+    }
+}
